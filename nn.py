@@ -32,7 +32,7 @@ class Layer:
     
     def parameters(self):
         return [p for n in self.neurons for p in n.parameters()]
-
+ 
 class MLP:
 
     def __init__(self, nin, nouts):
